@@ -10,6 +10,9 @@ module.exports = {
       sx:'0.6rem',
       xl:'1.8rem'
     },
+    borderColor:{
+      main:"#27b881"
+    }
   },
   plugins: [],
 }
