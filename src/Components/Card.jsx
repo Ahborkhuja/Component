@@ -9,22 +9,23 @@ function Card({ movieName, ticketCount, movieTime, ageRestriction, day, month, p
   return (
     <>
       <div className={classnames(`relative bg-[url('https://keithandthemovies.files.wordpress.com/2022/10/megan.png')]`, movieStyle)} >
-        <div className="absolute bottom-0 bg-black opacity-80 w-full h-16 flex justify-between items-center gap-5 p-2">
+        <div className="absolute bottom-0 bg-black opacity-90 w-full h-16 flex justify-between items-center gap-5 p-2">
           <div className="flex justify-between items-center gap-3 ml-2">
             <div className="text-white">
               <div className="text-xl font-bold">{movieName}</div>
               <div className="text-sx">
                 {ticketCount}-билета | {place} Cinema | {ageRestriction}
+                .
               </div>
             </div>
             <div className={classnames(text,"text-xs")}><p> {day} <br /> {month}</p></div>
             <div className={classnames(text,"text-sx")}>{movieTime}</div>
           </div>
           <div className="flex justify-between items-center gap-2">
-            <button type="button" className="border-0 focus:bg-green-500 rounded-full bg-transparent ">
+            <button type="button" className="border-0 focus:bg-green-900 rounded-full ">
               <Image src={arrowR} width={30} alt="" />
             </button>
-            <button type="button" className="border-2 bg-transparent border-main text-white pl-2 pr-2 pt-1 pb-1 text-sm rounded focus:bg-green-500">
+            <button type="button" className="border-2 border-main text-white pl-2 pr-2 pt-1 pb-1 text-sm rounded focus:bg-green-900">
               Показать QR
             </button>
           </div>

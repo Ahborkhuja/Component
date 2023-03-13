@@ -24,7 +24,7 @@ export default function Home() {
       </ButtonGroup> */}
 
       <div className="w-full h-full bg-black ">
-        <button type="button" className="border-0 bg-transparent mt-2 ml-3 mb-20 rounded-full focus:bg-green-800">
+        <button type="button" className="border-0 bg-transparent mt-2 ml-3 mb-20 rounded-full focus:bg-green-900">
           <Image src={arrowL} width={50} alt='' />
         </button>
         <MovieList className="p-2 gap-20 flex flex-wrap justify-center items-center">

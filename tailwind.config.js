@@ -12,7 +12,7 @@ module.exports = {
     },
     borderColor:{
       main:"#27b881"
-    }
+    },
   },
   plugins: [],
 }
